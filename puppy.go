@@ -18,7 +18,7 @@ func Barks() string {
 
 func Sleeps(s string) string {
 	log.Println("Puppy sleeps")
-	Dog.Sleep("Cinnamon")
+	Dog.Sleeps("Cinnamon")
 	return "My Puppy sleeps"
 }
 
@@ -30,6 +30,6 @@ func Runs(s string) string {
 
 func Chills(s string) string {
 	log.Println(s + "the dog is chilling")
-	Dog.Sleep("Nunes")
+	Dog.Chills("Nunes")
 	return "My Puppy Chills"
 }
