@@ -33,3 +33,7 @@ func Chills(s string) string {
 	Dog.Chills("Nunes")
 	return "My Puppy Chills"
 }
+
+func From11() {
+	log.Println("from version 1.1.0")
+}
