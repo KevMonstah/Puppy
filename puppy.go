@@ -41,3 +41,7 @@ func From11() {
 func From12() {
 	log.Println("from version 1.2.0")
 }
+
+func From13() {
+	log.Println("from version 1.3.0")
+}
