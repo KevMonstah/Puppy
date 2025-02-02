@@ -37,3 +37,7 @@ func Chills(s string) string {
 func From11() {
 	log.Println("from version 1.1.0")
 }
+
+func From12() {
+	log.Println("from version 1.2.0")
+}
